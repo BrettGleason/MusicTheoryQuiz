@@ -1,10 +1,7 @@
-#ifndef notes_h
-#define notes_h
-
 #include <iostream>
 #include <string>
 
-enum class Note {A, B, C, D, E, F, G};
+#include "notes.h"
 
 std::string noteName(Note noteEnumValue)
 {
@@ -69,4 +66,3 @@ std::string noteName(int noteValue)
 
     return note;
 }
-#endif
